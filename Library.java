@@ -26,7 +26,7 @@ public class Library <T extends Book>{
         for(T book : library){
             System.out.println(book.GetNameBook());
         }
-        System.out.println("Книг  выдано: " + summBookLibrary + " шт");
+        System.out.println("Книг  выдано: " + summBookIssued + " шт");
         for(T book : issued){
             System.out.println(book.GetNameBook());
         }
